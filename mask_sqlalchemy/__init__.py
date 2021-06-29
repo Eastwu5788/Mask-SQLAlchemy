@@ -268,7 +268,6 @@ class SQLAlchemy:
         self.app = app
 
         app.config.setdefault("SQLALCHEMY_BINDS", None)
-        app.config.setdefault("SQLALCHEMY_COMMIT_ON_TEARDOWN", False)
         app.config.setdefault("SQLALCHEMY_ENGINE_OPTIONS", {})
 
         # 如果配置更新，需要重新释放所有旧的链接

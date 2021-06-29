@@ -6,4 +6,4 @@ pylint>=2.8.3
 
 
 wheel>=0.36.2
-twime>=3.4.1
+twine>=3.4.1
