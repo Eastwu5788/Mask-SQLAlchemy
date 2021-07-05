@@ -3,4 +3,4 @@ rm -vrf ./build ./dist  ./*.pyc ./*.tgz ./*.egg-info
 ./venv/bin/python setup.py sdist
 ./venv/bin/pip wheel --wheel-dir=./dist ./  --trusted-host pypi.bvrft.cn
 
-twine upload ./dist/Mask_SQLAlchemy-*.whl
+twine upload ./dist/mask_sqlalchemy-*.whl

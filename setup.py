@@ -9,7 +9,7 @@ from setuptools import setup
 
 
 setup(
-    name="Mask-SQLAlchemy",
+    name="mask-sqlalchemy",
     install_requires=[
         "mask>=1.0.0a1",
         "sqlalchemy>=1.4.20",
